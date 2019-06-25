@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/public/index.html')
 })
 // Create default port to serve the app on
-const port = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000
 app.listen(port)
 // Log to feedback that this is actually running
-console.log('Server started on port ' + port)
+console.log('Server started on port ' + PORT)
