@@ -1,0 +1,48 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+$white: #fff;
+$darkBlue: #44519E;
+$lightBlue: #2ABCEF;
+$lightPurple: #6973B1;
+$yellow: #FFC646;
+
+*, h1,h2,h3,h3,h4,h5,h6,p, span, div{
+  font-family: 'Roboto', sans-serif;
+  // font-family: 'Rubik Mono One', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body{
+  background: #EDEDED;
+  height: 100%;
+  overflow: hidden;
+}
+
+@import "home";
+@import "all-tasks";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 15px 0;
+  &.lightBlue{
+    font-size: 25px;
+    background: $lightBlue;
+  }
+}
